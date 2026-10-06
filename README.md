@@ -11,6 +11,7 @@ The release is intended to help readers examine key implementation details and a
 - Source code for the **dual-branch spatial–frequency module** [**dsfm.py**].
 - The YAML configuration file for the **YOLO26-CorroSeg backbone** [**YOLO26-CorroSeg.yaml**].
 - YOLO26 [https://github.com/ultralytics/ultralytics/tree/main]
+
 Together, these files document the released model component and its backbone configuration.
 
 ### 2. Corrosion dataset subset
