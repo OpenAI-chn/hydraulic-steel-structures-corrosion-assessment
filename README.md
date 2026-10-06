@@ -17,9 +17,9 @@ Together, these files document the released model component and its backbone con
 
 A subset of images of corroded hydraulic steel structures and their corresponding annotations is provided for inspection and testing. The complete project dataset is not included because of confidentiality restrictions.
 
-**Dataset location:** `[Google Cloud Drive]`  ：[]
+**Dataset location:** `[Google Cloud Drive]`  ：[https://drive.google.com/file/d/1xpMcc4sXuCSKoAqmjJ7mM08H3afWkK8F/view?usp=drive_link]
 
-**Number of released images:** `[30]`  
+**Number of released images:** `[35]`  
 **Annotation format:** `[YOLO-Seg]`  
 **Class definitions:** `[corrosion]`
 
