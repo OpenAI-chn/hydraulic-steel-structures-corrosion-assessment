@@ -8,8 +8,8 @@ The release is intended to help readers examine key implementation details and a
 
 ### 1. Corrosion segmentation model
 
-- Source code for the **dual-branch spatial–frequency module**.
-- The YAML configuration file for the **YOLO26-CorroSeg backbone**.
+- Source code for the **dual-branch spatial–frequency module**[dsfm.py].
+- The YAML configuration file for the **YOLO26-CorroSeg backbone**[YOLO26-CorroSeg.yaml].
 
 Together, these files document the released model component and its backbone configuration.
 
@@ -17,7 +17,7 @@ Together, these files document the released model component and its backbone con
 
 A subset of images of corroded hydraulic steel structures and their corresponding annotations is provided for inspection and testing. The complete project dataset is not included because of confidentiality restrictions.
 
-**Dataset location:** `[Google Cloud Drive]`  ：
+**Dataset location:** `[Google Cloud Drive]`  ：[]
 **Number of released images:** `[30]`  
 **Annotation format:** `[YOLO-Seg]`  
 **Class definitions:** `[corrosion]`
@@ -26,9 +26,8 @@ A subset of images of corroded hydraulic steel structures and their correspondin
 
 The repository includes materials for configuring the 3D Gaussian Splatting environment with Anaconda on Windows and the corresponding video-based training script.
 
-**Environment materials:** `[Google Cloud Drive]`  ：https://drive.google.com/file/d/1cGCyGK59yy9q0mbRakBBri8x9kvhdJO9/view?usp=sharing
-**Training script:** `
-Once the 3D Gaussian Splatting (3DGS) environment has been configured, simply place the 'train_video.py' script into the root directory of the gaussian-splatting project[https://github.com/graphdeco-inria/gaussian-splatting], and 3D reconstruction from a video can be performed in a single step.
+**A compressed archive of the Anaconda environment used to run 3DGS on Windows:** `[Google Cloud Drive]`  ：https://drive.google.com/file/d/1cGCyGK59yy9q0mbRakBBri8x9kvhdJO9/view?usp=sharing
+**Training script:** `Once the 3D Gaussian Splatting (3DGS) environment has been configured, simply place the 'train_video.py' script into the root directory of the gaussian-splatting project[https://github.com/graphdeco-inria/gaussian-splatting], and 3D reconstruction from a video can be performed in a single step.
 
 Before running the script, update its input and output paths to match your local directory structure. See the files in this section for the required environment configuration and script parameters.
 
@@ -41,4 +40,4 @@ This repository contains selected materials from the study. Other project data a
 If you use these materials, please cite the associated manuscript:
 
 **“A closed-loop edge-server collaborative intelligence framework for corrosion assessment and 3D visualization of hydraulic steel structures.”**  
-`[INSERT AUTHORS, JOURNAL, YEAR, AND DOI WHEN AVAILABLE]`
+`[ AUTHORS, JOURNAL, YEAR, AND DOI WHEN AVAILABLE]`
